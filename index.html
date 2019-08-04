@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 
+    <script src="_scripts/main.js"></script>
+
     <link rel="stylesheet" href="_styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CaioLab</title>
 </head>
-<body>
+<body onload="corpyright()">
         <input type="checkbox" id="chk">
         <nav class="menu" id="principal">
                 <ul>
@@ -20,17 +22,11 @@
                
                 <h2 id="subtitle">Projects</h2>
                 <div class="submenu">
-                    <li><a href="#">Orbit Engine</a></li>
+                    <li><a id="subitem" href="#">Orbit Engine</a></li>
                     <br/>
-                    <li><a href="#">TEST2</a></li>
-                    <br/>
-                    <li><a href="#">TEST3</a></li>
-                    <br/>
-                    <li><a href="#">TEST4</a></li>
-                    <br/>
-                    <li><a href="#">TEST5</a></li>
-                    
                 </div>
+
+                
                     
                 </ul>
             </nav>
@@ -44,11 +40,24 @@
         <a href="#" class="fa fa-linkedin"></a>
         </div>
     </header>
+    <section class="frist">
+
+    </section>
+    <section class="second">
+
+    </section>
     <section>
+
+    </section class="third">
 
     </section>
     <footer>
-
+        <p id="corpyright">&copy0000</p>
+        <div class="footercontent">
+        <a id="footeritem" href="">Privacy</a>
+        <a id="footeritem" href="">Team</a>
+        <a id="footeritem" href="">Open Source</a>
+        </div>
     </footer>
 </body>
 </html>
