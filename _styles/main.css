@@ -5,7 +5,6 @@ body{
 }
 
 a{
-    color: #fff;
     text-decoration: none;
 }
 
@@ -68,12 +67,29 @@ header{
     height: 400px;
     width: 100%;
     position: fixed;
-    background-color: rgb(63, 136, 204);
+    background-color: rgb(84, 94, 233);
     top: 0;
     left: 0;
-    overflow: hidden;
+    overflow: auto;
     transition: all .2s;
-    color: #fff;
     box-shadow: 5px 0px 15px 5px rgba(0,0,0,0.2);
 
+}
+
+.submenu{
+    padding: 10px;
+    width: 200px;
+
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    
+}
+
+#subtitle{
+    color: #fff;
+}
+
+.projects{
+    margin-left: 400px;
 }
