@@ -15,8 +15,10 @@ li{
 /* icons */
 
 .fa-chevron-circle-down{
+    margin-left: 20px;
     float: left;
     cursor: pointer;
+    
 }
 
 .socialnetwork{
@@ -53,8 +55,6 @@ header{
 }
 
 #logo{
-    margin-left -10px;
-    
     height: 60px;
 }
 
