@@ -64,6 +64,17 @@ header{
     background-color: rgb(101, 111, 255);
 }
 
+
+fa-moon{
+    position: absolute;
+    bottom: 0;
+}
+
+fa-sun{
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
 /* menu */
 
 #chk:checked ~ #principal{
