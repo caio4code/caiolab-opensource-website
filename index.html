@@ -3,17 +3,25 @@
 <head>
 
     <script src="_scripts/main.js"></script>
-    <script src="https://kit.fontawesome.com/d08cffa8f3.js"></script>
+    <script src="_scripts/darkmode.js"></script>
 
     <link rel="stylesheet" href="_styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CaioLab</title>
 </head>
-<body onload="corpyright()">
+<body id="body" onload="corpyright()">
+
+        <div class="slide">
+            <h1 id="slidetitle">We make open source applications for everyone</h1>
+            <br/>
+            <a href="#" id="slidebutton">Learn More ></a>
+        </div>
+
         <input type="checkbox" id="chk">
         <nav class="menu" id="principal">
                 <ul>
@@ -27,42 +35,42 @@
                     <br/>
                 </div>
 
-                <i class="fa fa-moon"></i>
-                <i class="fa fa-sun"></i>
+                <div onclick="darkmode()" id="moon">Dark Mode</div>
+                <div onclick="lightmode()" id="sun">Light Mode</div>
             
                     
                 </ul>
             </nav>
-    <header>
+    <header id="header">
             <label for="chk"><a class="fa fa-chevron-circle-down"></a></label>
         <span id="logo">CaioLab</span>
-        <!--
+        
         <div class="menuitems">
             <a id="items" href="">Products</a> 
             <a id="items" href="items">Get Involved</a> 
             <a id="items" href="items">Donate</a> 
         </div>
-    -->
+    
         <div class="socialnetwork">
         <a href="https://github.com/caiolab" class="fa fa-github"></a>
-        <!--
+        
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-reddit"></a>
         <a href="#" class="fa fa-linkedin"></a>
-        -->
+        
         </div>
     </header>
-    <section class="frist">
+        <section class="frist">
 
-    </section>
-    <section class="second">
-
-    </section>
-    <section>
-
-    </section class="third">
-
-    </section>
+        </section>
+        <section class="second">
+                
+        </section>
+        <section>
+    
+        </section class="third">
+    
+        </section>
     <br/>
     <br/>
     <br/>
@@ -112,7 +120,7 @@
     <br/>
     <br/>
     <br/>
-    <footer>
+    <footer id="footer">
         <div class="patrons">
         CaioLab Patrons:
         <br/>
