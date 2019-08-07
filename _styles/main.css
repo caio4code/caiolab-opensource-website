@@ -3,6 +3,7 @@ body{
     background-color: #272727;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.2s
 }
 
 a{
@@ -21,6 +22,7 @@ li{
 }
 
 .socialnetwork{
+    margin-right: 15px;
     margin-top: -40px;
     float:right;
 }
@@ -51,6 +53,7 @@ header{
     background-color: #121212;
 
     border-bottom: solid 5px rgb(101, 111, 255);
+    transition: 0.2s;
 }
 
 #logo{
@@ -95,13 +98,13 @@ header{
 /* menu */
 
 #chk:checked ~ #principal{
-    transform: translateY(580px);
+    transform: translateY(400px);
 }
 
 .menu{
     position: fixed;
-    margin-top: -570px;
-    height: 570px;
+    margin-top: -400px;
+    height: 400px;
     width: 100%;
     position: fixed;
     background-color: rgb(101, 111, 255);
@@ -141,10 +144,20 @@ header{
     margin-left: 200px;
 }
 
-#items{
+.items{
     padding: 10px;
 
     color: rgb(101, 111, 255);
+    transition: 0.2s;
+}
+
+.items.active{
+    border-bottom: solid 2px rgb(101, 111, 255);
+}
+
+.items:hover{
+    border-bottom: solid 2px rgb(101, 111, 255);
+    
 }
 
 /* slide */
@@ -170,18 +183,26 @@ header{
 }
 
 #slidebutton{
-    padding: 30px;
+    display: inline-block;
+    padding: 20px;
+
+    width: auto;
 
     border-radius: 5px;
     background-color: rgb(101, 111, 255);
     color: #fff;
     box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 
 #chk{
     display: none;
 }
 /* section */
+section{
+    background-color: #121212;
+}
+
 .frist{
  
     margin-top: 650px;
@@ -193,7 +214,7 @@ header{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: solid 5px rgb(101, 111, 255);
-    background-color: #121212;
+    
 
 }
 
@@ -207,7 +228,7 @@ header{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: solid 5px rgb(101, 111, 255);
-    background-color: #121212;
+    
 }
 
 .third{
@@ -220,7 +241,7 @@ header{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: solid 5px rgb(101, 111, 255);
-    background-color: #121212;
+  
 }
 
 
@@ -239,6 +260,7 @@ footer{
     border-top: solid 5px rgb(101, 111, 255);
     background-color: #121212;
     color: rgb(101, 111, 255);
+    transition: 0.2s;
 }
 
 
