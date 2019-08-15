@@ -6,8 +6,13 @@ body{
     transition: 0.2s
 }
 
+h1{
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
 h2{
     padding: 10px;
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
 }
 
 #button{
@@ -49,8 +54,28 @@ li{
     float:right;
 }
 
+.fa-github{
+    font-size: 25px;
+}
+
 .fa {
     padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(101, 111, 255);
+
+  }
+
+.fas {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(101, 111, 255);
+
+  }
+
+.fab {
+    padding: 17px;
     text-align: center;
     text-decoration: none;
     color: rgb(101, 111, 255);
@@ -61,6 +86,10 @@ li{
 .fa:hover {
     opacity: 0.7;
   }
+
+.fab:hover{
+    opacity: 0.7;
+}
 
 /* header */
 
@@ -151,6 +180,7 @@ header{
 
 #subtitle{
     color: #fff;
+    text-shadow: 0px 0px 0px rgb(255, 255, 255);
 }
 
 #subitem{
@@ -228,6 +258,7 @@ section{
     height: 500px;
     color: #fff;
     background-color: #121212;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
 }
 
 .frist{
@@ -321,5 +352,28 @@ footer{
     }
     .menuitems{
         display:none;
+    }
+    .frist{
+        background-position-x: 50%;
+        background-size: 300%;
+       
+    
+        
+    
+    }
+    
+    .second{
+        background-position-x: 50%;
+        background-size: 300%;
+
+        
+    }
+    
+    .third{
+        background-position-x: 50%;
+        background-size: 300%;
+   
+      
+    }
 }
     
