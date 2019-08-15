@@ -15,4 +15,4 @@ Clone the repository
 License
 =======
 
-This project has a [MIT license](LICENSE.md).
+This project has a [MIT license](LICENSE).
