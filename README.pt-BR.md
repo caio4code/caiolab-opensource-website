@@ -6,7 +6,7 @@ línguas:
 [English](README.md)
 
 
-Contributing
+Contribuindo
 ============
 Você pode contribuir com codigo ou tradução
 
