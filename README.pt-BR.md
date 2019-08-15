@@ -3,15 +3,16 @@ Este é o codigo fonte do site [caiolab.com](https://caiolab.com)
 
 
 línguas:
+[English](README.md)
 
 
 Contributing
 ============
 Você pode contribuir com codigo ou tradução
 
-## How to run the code
-### Getting the code
-Clone the repository
+## Como rodar o codigo
+### Obtendo o codigo
+Clone o repositório
 
 License
 =======
