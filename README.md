@@ -1,8 +1,8 @@
 # CaioLab Website
-This is the source for the caiolab.com website
+This is the source for the [caiolab.com](https://caiolab.com) website
 
 languages:
-[![Português]()
+[Português](README.pt-BR.md)
 
 Contributing
 ============
