@@ -215,6 +215,7 @@ header{
 /* slide */
 
 .slide{
+    display: inline-block;
     position: absolute;
     top: 65px;
     left: 0;
