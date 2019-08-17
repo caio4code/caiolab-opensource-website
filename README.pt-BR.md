@@ -14,7 +14,7 @@ Você pode contribuir com codigo ou tradução
 ### Obtendo o codigo
 Clone o repositório
 
-License
+Licença
 =======
 
 Este projeto tem [MIT license](LICENSE).
