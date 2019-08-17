@@ -54,10 +54,6 @@ li{
     float:right;
 }
 
-.fa-github{
-    font-size: 25px;
-}
-
 .fa {
     padding: 20px;
     text-align: center;
@@ -75,10 +71,11 @@ li{
   }
 
 .fab {
-    padding: 17px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     color: rgb(101, 111, 255);
+    font-size: 25px;
 
   }
   
