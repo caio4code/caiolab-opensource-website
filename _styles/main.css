@@ -6,6 +6,27 @@ body{
     transition: 0.2s
 }
 
+#loginbutton{
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    top:10px;
+    right: 10px;
+
+    text-align: center;
+    background-color: rgb(101, 111, 255);
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#loginbutton:hover{
+    opacity: 0.7;
+}
+
 h1{
     text-shadow: 0px 5px 10px rgba(0,0,0,0.5);
 }
@@ -49,8 +70,8 @@ li{
 }
 
 .socialnetwork{
-    margin-right: 15px;
-    margin-top: -40px;
+    margin-right: 85px;
+    margin-top: -38px;
     float:right;
 }
 
@@ -67,6 +88,7 @@ li{
     text-align: center;
     text-decoration: none;
     color: rgb(101, 111, 255);
+ 
 
   }
 
@@ -76,8 +98,10 @@ li{
     text-decoration: none;
     color: rgb(101, 111, 255);
     font-size: 25px;
-
+    
   }
+
+  
   
   /* Add a hover effect if you want */
 .fa:hover {
