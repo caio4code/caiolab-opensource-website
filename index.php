@@ -15,7 +15,7 @@
     <meta name="author" content="CaioLab">
     <meta name="description" content="CaioLab is an open source community for everyone.">
     <meta name="keywords" content="caiolab, web, open, source, development">
-    <title>CaioLab</title>
+    <title>CaioLab Open Source</title>
 </head>
 <body>
     <?php

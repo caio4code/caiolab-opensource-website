@@ -21,11 +21,11 @@
             </nav>
     <header id="header">
             <label for="chk"><a class="fas fa-chevron-circle-down"></a></label>
-        <span id="logo">CaioLab</span>
+        <span id="logo">CaioLab Open Source</span>
         
         <div class="menuitems">
             <a class="items" href="https://caiolab.com">Products</a> 
-            <a class="items" href="https://caiolab.com/opensource.php">Open Source</a> 
+            <!-- <a class="items" href="https://caiolab.com/opensource.php">Open Source</a> -->
             <a class="items" href="https://community.caiolab.com">Get Involved</a> 
         </div>
     
